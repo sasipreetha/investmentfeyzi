@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css?family=Rubik:300,300i,400,400i,500,500i,700,700i,900,900i&display=swap&subset=cyrillic");
+
+body
+{
+    text-align: center;
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+}
+#welcome {
+    color: #FFFFFF;
+    bottom: 0;
+    background: linear-gradient(#60ebeb 0%, #27ae60 100%);
+    display: table;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    z-index: 9;
+}
+
+.links a{
+    font-size: 30px;
+    color:#fff;
+    margin-right:20px;
+    float:right;
+    padding: 4px 0;
+}
+.movie_head
+{
+    font-size: 20px;
+    padding: 6px 22px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    text-align: center;
+    border: 1px solid lightgrey;
+}
+
+.movie_text p
+{
+    width: 50%;
+    display: inline-block;
+    white-space: pre-line;
+    text-align: justify;
+}
+#bio {
+    font-family: 'Cinzel Decorative', cursive;
+    padding-top: 40px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 300;
+    margin-top: 10px !important;
+}
+
+.line {
+    height: 6px;
+    background-color: #000;
+    width: 70px;
+    margin: 8px auto;
+}
+
+
+.a{
+    position:sticky;
+    top:0;
+    z-index: 99999;
+}
+input{
+    background: fff;
+}
+#em{
+    margin-top: 10px;
+    font-size: 15px;
+}
+#name{
+    font-weight: 700px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#m{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 30px;
+    display: inline-block;
+    white-space: pre-line;
+    overflow: hidden;
+    text-align: justify;
+    padding:30px;
+}
+#faq {
+    margin-top: 40px
+}
+#con {
+    margin: 40px 0;
+}
